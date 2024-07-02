@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloggRider.Web", "BloggRider.Web\BloggRider.Web.csproj", "{2676A4C2-5486-4585-8BB2-5DFD1D112A89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2676A4C2-5486-4585-8BB2-5DFD1D112A89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2676A4C2-5486-4585-8BB2-5DFD1D112A89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2676A4C2-5486-4585-8BB2-5DFD1D112A89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2676A4C2-5486-4585-8BB2-5DFD1D112A89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -9,7 +9,14 @@ public class BlogPost
     public string ShortDescription { get; set; }
     public string FeaturedImageUrl { get; set; }
     public string UrlHandle { get; set; }
-    public DateTime PublishedDate { get; set; }
+    
+    private DateTime _publishedDate;
+
+    public DateTime PublishedDate
+    {
+        get => _publishedDate;
+        set => _publishedDate = value.ToUniversalTime();
+    }
     public string Author { get; set; }
     public bool Visible { get; set; }
     
